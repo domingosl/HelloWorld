@@ -1,0 +1,25 @@
+<!doctype html>
+	<html lang="en">
+		<head>
+			<!--<meta charset="utf-8" />-->
+			<title>Hello World</title>
+			<!--<link rel="stylesheet" href="style.css" />-->
+            
+        </head>
+		<body>
+            <button id="btn1">Click me!</button>
+            <button id="btn2">Clear</button>
+            <div id="results"></div>
+            
+            <script src="js/zepto.min.js"></script>
+            <script>
+            $("#btn1").click(function() {
+                $("#results").html("some content here...");
+            });
+            $("#btn2").click(function() {
+                $("#results").html("");
+            });
+            </script>
+		
+        </body>
+    </html>
