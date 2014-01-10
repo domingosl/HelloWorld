@@ -28,6 +28,8 @@
     <body>
         <p>some text...</p>
         <div id="karaoke-display" style="text-align:center;font-size: 20px;font-family: Roboto;font-weight:normal;">---</div>
+        <div id="local-nav">...</div>
+        <div id="remote-nav">...</div>
         <div class="app">
             <h1>PhoneGap</h1>
             <div id="deviceready" class="blink">
@@ -92,6 +94,9 @@ interval = setInterval(function() {
     i += rate;
     show.render(i);
 }, rate*1000);
+
+$( "#local-nav" ).load( "test.txt" );
+$( "#remote-nav" ).load( "http://google.com" );
         </script>
     </body>
 </html>
