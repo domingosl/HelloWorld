@@ -1,0 +1,13 @@
+    <widget id="com.example.hello" version="0.0.1">
+        <name>HelloWorld</name>
+        <description>
+            Hello World APP
+        </description>
+        <author email="test@test.com" href="http://phonegap.com">
+            Some info here...
+        </author>
+        <content src="index.html" />
+        <access origin="*" />
+        <preference name="Fullscreen" value="false" />
+        <preference name="WebViewBounce" value="true" />
+    </widget>
